@@ -9,6 +9,14 @@
 Пример использования:
     isPalindrom("level") # True
     isPalindrom("hello") # False
+    
+#   def polidrom(text):
+    text_plus = text.lower().replace('!', '').replace('-', '').replace('+', '').replace('#', '').replace('&', '').replace('=', '').replace('*', '').replace(';', '').replace(':', '')
+    if text == text[::-1]:
+        print('Это палиднром')
+    else:
+        print('Это НЕ палиндром')
+print(polidrom(input('Введите слово:')))
 
 Задание №2
 
